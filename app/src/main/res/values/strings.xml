@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_autor" translatable="false">Colin Ries, 3B</string>
+    <string name="build" translatable="false">Build</string>
+    <string name="credits_copyright" translatable="false">\u00A92015 Colin Ries</string>
+    <string name="design_assistance_name" translatable="false">Souheib Allouache</string>
+    <string name="development_assistance_name" translatable="false">Olivier Nick, LGL 2B</string>
+    <string name="email_secretary" translatable="false">secretariat@lge.lu</string>
+    <string name="feedback_email" translatable="false">feedback@colinries.com</string>
+    <string name="french_translation_name" translatable="false">Sacha Wolf, 3B</string>
+    <string name="intranet_url_postfix" translatable="false">.JPG</string>
+    <string name="intranet_url_prefix" translatable="false">http://www.lge.lu/lgeapp/intranet/2006/1996/Slide</string>
+    <string name="latvocmarketlink" translatable="false">market://details?id=nick.oliver.latinvocablereviser</string>
+    <string name="latvocplaystorelink" translatable="false">http://play.google.com/store/apps/details?id=nick.oliver.latinvocablereviser</string>
+    <string name="nav_lge_lu" translatable="false">LGE.lu</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="phone_number" translatable="false">+352 55 62 85</string>
+    <string name="sender_id" translatable="false">953167740477</string>
+    <string name="serverBootReport" translatable="false">Server Boot Report</string>
+    <string name="serverBootReportSummary" translatable="false">Get a notification every time the back-end server booted successfully.</string>
+    <string name="slideNumberTxtUrl" translatable="false">http://www.lge.lu/lgeapp/intranet/2006/1996/number.txt</string>
+    <string name="street_number" translatable="false">71, rue du Fossé</string>
+    <string name="timetable_address_prefix" translatable="false">http://lge.lu/horaires/39/c/c000</string>
+    <string name="timetable_address_suffix" translatable="false">.htm</string>
+    <string name="topic_serverbootreport" translatable="false">/topics/serverbootreport</string>
+    <string name="vocgoto" translatable="false">Play Store</string>
+    <string name="zip_code_location" translatable="false">L-4123 Esch-sur-Alzette</string>
+
+    <string name="app_name">LGE</string>
+    <string name="action_settings">Settings</string>
+    <string name="address">Address</string>
+    <string name="app_banner">The  official LGE app</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_email_client">Choose email app</string>
+    <string name="copyright">Copyright</string>
+    <string name="date">Date</string>
+    <string name="design_assistance">Design Assistance</string>
+    <string name="developer_label">Developer</string>
+    <string name="development_assistance">Development Assistance</string>
+    <string name="device_registered">Device registered!</string>
+    <string name="email_address">Email</string>
+    <string name="feedback_address_text">Feedback email</string>
+    <string name="feedback_header">Extra info (DO NOT DELETE):</string>
+    <string name="feedback_subject">Feedback for the LGE App</string>
+    <string name="french_translation">French translation</string>
+    <string name="general_notifications">General Notifications</string>
+    <string name="general_notifications_summary">Get general push notifications for news, announcements and so on.</string>
+    <string name="header">Header</string>
+    <string name="hint">Hint</string>
+    <string name="holiday_countdown">Holiday countdown</string>
+    <string name="holiday_countdown_summary">Get a notification at 7:30 every day, that tells you the remaining time until the next holidays.</string>
+    <string name="images_from_intranet">Images from intranet</string>
+    <string name="intranetHintMsg">You can now swipe to change the slide!</string>
+    <string name="nav_about">About</string>
+    <string name="nav_contact">Contact</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_intranet">Intranet</string>
+    <string name="nav_more">More</string>
+    <string name="nav_schedule">Schedule</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_welcome">Welcome</string>
+    <string name="next_slide_button">Next slide button</string>
+    <string name="okay">OK</string>
+    <string name="phone_number_text">Phone</string>
+    <string name="pref_header_developer">Developer Options</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_startup_screen">Select screen that appears after launch</string>
+    <string name="pref_title_my_class">My class</string>
+    <string name="previous_slide_button">Previous slide button</string>
+    <string name="registration_error">Error on registration</string>
+    <string name="select_class">Select class!</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="topic_global">/topics/global</string>
+    <string name="topic_holidayCountdown">/topics/holidayCountdown</string>
+    <string name="version">Version</string>
+    <string name="vocMessage">I recommend you the app \"Learn Latin Vocabulary\" to revise your vocabulary. It completes this app perfectly and is a must-have for all Latin students in Luxembourg.</string>
+    <string name="vocTitle">Learn Latin Vocabulary</string>
+</resources>

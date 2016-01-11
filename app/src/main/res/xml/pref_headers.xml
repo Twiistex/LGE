@@ -1,0 +1,20 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.lumi_dos.lge.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_about"
+        android:title="@string/pref_header_general" />
+
+    <header
+        android:fragment="com.lumi_dos.lge.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/pref_header_notifications" />
+
+    <header
+        android:fragment="com.lumi_dos.lge.SettingsActivity$DeveloperPreferenceFragment"
+        android:icon="@drawable/ic_developer"
+        android:title="@string/pref_header_developer" />
+
+</preference-headers>

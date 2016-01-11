@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:defaultValue="@string/select_class"
+        android:entries="@array/classes"
+        android:entryValues="@array/classes"
+        android:key="my_class"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_my_class" />
+
+    <ListPreference
+        android:defaultValue="@string/nav_welcome"
+        android:entries="@array/startOptions"
+        android:entryValues="@array/startOptions"
+        android:key="selected_startup_screen"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_startup_screen" />
+</PreferenceScreen>

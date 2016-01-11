@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LGE</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="address">Adresse</string>
+    <string name="app_banner">L’appli officielle du LGE</string>
+    <string name="cancel">Annuler</string>
+    <string name="choose_email_client">Choisissez une application mail</string>
+    <string name="copyright">Droits d’auteur</string>
+    <string name="date">Date</string>
+    <string name="design_assistance">Assistance au Design</string>
+    <string name="developer_label">Développeur</string>
+    <string name="development_assistance">Assistance au développement</string>
+    <string name="device_registered">Appareil enregistré!</string>
+    <string name="email_address">Email</string>
+    <string name="feedback_address_text">Email de réaction</string>
+    <string name="feedback_header">Informations supplémentaires (NE PAS EFFACER):</string>
+    <string name="feedback_subject">Réaction à l’application LGE</string>
+    <string name="french_translation">Traduction française</string>
+    <string name="general_notifications">Notifications générales</string>
+    <string name="general_notifications_summary">Recevez des notifications Push pour des informations, des nouvelles et autres.</string>
+    <string name="header">Entête</string>
+    <string name="hint">Tuyau</string>
+    <string name="holiday_countdown">Compte à rebours des vacances</string>
+    <string name="holiday_countdown_summary">Recevez une notification chaque jour à 7:30 indiquant le nombre de jours restants jusqu’aux prochaines vacances.</string>
+    <string name="images_from_intranet">Images de l’intranet</string>
+    <string name="intranetHintMsg">Maintenant c\'est possible de glisser pour changer l\'image!</string>
+    <string name="nav_about">À propos</string>
+    <string name="nav_contact">Contact</string>
+    <string name="nav_feedback">Réaction</string>
+    <string name="nav_intranet">Intranet</string>
+    <string name="nav_more">Plus</string>
+    <string name="nav_schedule">Horaires</string>
+    <string name="nav_settings">Paramètres</string>
+    <string name="nav_welcome">Bienvenue</string>
+    <string name="next_slide_button">Bouton de la diapositve suivante</string>
+    <string name="okay">OK</string>
+    <string name="phone_number_text">Téléphone</string>
+    <string name="pref_header_developer">Options du développeur</string>
+    <string name="pref_header_general">Général</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_startup_screen">Choisissez l’écran qui apparaît après le démarrage</string>
+    <string name="pref_title_my_class">Ma classe</string>
+    <string name="previous_slide_button">Bouton de la diapositive précédante</string>
+    <string name="registration_error">Erreur lors de l’enregistrement</string>
+    <string name="select_class">Choisissez votre classe!</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="topic_global">/topics/global_fr</string>
+    <string name="topic_holidayCountdown">/topics/holidayCountdown_fr</string>
+    <string name="version">Version</string>
+    <string name="vocMessage">L’application \"Learn Latin Vocabulary\" vous est fortement recommendée. En effet, l’application complète parfaitement cette application et le téléchargement de celle-ci est indispensable.</string>
+    <string name="vocTitle">Apprenez des vocables latins</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.lumi_dos.lge.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <Spinner
+                android:visibility="invisible"
+                android:layout_alignRight="@+id/action_settings"
+                android:layout_alignEnd="@+id/action_settings"
+                android:layout_width="170dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/class_selector"
+                android:color="@android:color/white"
+                android:layout_marginRight="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_gravity="end">
+            </Spinner>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:layout_marginTop="@dimen/marginAppBarHeight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"/>
+
+</android.support.design.widget.CoordinatorLayout>

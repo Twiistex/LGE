@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <CheckBoxPreference
+        android:key="getGlobalNotifications"
+        android:title="@string/general_notifications"
+        android:summary="@string/general_notifications_summary"
+        android:defaultValue="true" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <CheckBoxPreference
+        android:key="getHolidayCountdown"
+        android:title="@string/holiday_countdown"
+        android:summary="@string/holiday_countdown_summary"
+        android:defaultValue="true" />
+
+</PreferenceScreen>
