@@ -12,6 +12,8 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
@@ -28,6 +30,7 @@ public class IntranetFragment extends Fragment implements GestureDetector.OnGest
     public static int slideNumber = 1;
     public static ImageButton backButton;
     public static ImageButton nextButton;
+    public static WebView webView;
     public GestureDetectorCompat mDetector;
     public SharedPreferences sharedPreferences;
     public static int totalNumberOfSlides = 100;
@@ -48,14 +51,26 @@ public class IntranetFragment extends Fragment implements GestureDetector.OnGest
 
         layout = (RelativeLayout) inflater.inflate(R.layout.fragment_intranet, container, false);
         imageView = (ImageView) layout.findViewById(R.id.imageView);
-        progressBar = (ProgressBar) layout.findViewById(R.id.progressBar);
-        new GetTotalNumberOfSlidesTask().execute(getString(R.string.slideNumberTxtUrl));
-        if(totalNumberOfSlides >slideNumber) new DownloadImageTask().execute(buildSlideUrl());
+        webView = (WebView) layout.findViewById(R.id.webView);
         backButton = (ImageButton) layout.findViewById(R.id.intranetBackButton);
         nextButton = (ImageButton) layout.findViewById(R.id.intranetNextButton);
-        backButton.setOnClickListener(clickListener);
-        nextButton.setOnClickListener(clickListener);
-        adaptButtonOpacity();
+        progressBar = (ProgressBar) layout.findViewById(R.id.progressBar);
+        if(sharedPreferences.getBoolean("getServerBootReport", false)) {
+            imageView.setVisibility(View.GONE);
+            nextButton.setVisibility(View.GONE);
+            backButton.setVisibility(View.GONE);
+            webView.setVisibility(View.VISIBLE);
+            webView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
+            webView.getSettings().setAppCacheEnabled(false);
+            webView.loadUrl("http://colinries.com/lge/intranet_trans.html");
+            progressBar.setVisibility(View.GONE);
+        } else {
+            new GetTotalNumberOfSlidesTask().execute(getString(R.string.slideNumberTxtUrl));
+            if (totalNumberOfSlides > slideNumber) new DownloadImageTask().execute(buildSlideUrl());
+            backButton.setOnClickListener(clickListener);
+            nextButton.setOnClickListener(clickListener);
+            adaptButtonOpacity();
+        }
 
 
         mDetector = new GestureDetectorCompat(getActivity(), this);

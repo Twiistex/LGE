@@ -8,8 +8,8 @@ android {
         applicationId "com.lumi_dos.lge"
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode 37
-        versionName "4.0.1"
+        versionCode 38
+        versionName "5.0 Early Bird #1"
     }
 
     lintOptions {

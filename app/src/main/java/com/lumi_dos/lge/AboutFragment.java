@@ -48,13 +48,13 @@ public class AboutFragment extends Fragment {
                         {getString(R.string.copyright), getString(R.string.credits_copyright)}
                 };
 
-        ArrayList<HashMap<String,String>> list = new ArrayList<HashMap<String,String>>();
+        ArrayList<HashMap<String,String>> list = new ArrayList<>();
 
         final ListView aboutView = (ListView) layout.findViewById(R.id.aboutAppList);
 
         HashMap<String,String> item;
         for (String[] aListData : listData) {
-            item = new HashMap<String, String>();
+            item = new HashMap<>();
             item.put("line1", aListData[0]);
             item.put("line2", aListData[1]);
             list.add(item);
